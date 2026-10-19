@@ -1,0 +1,29 @@
+:root {
+    --color-white: #FFFFFF;
+    --color-black: #000000;
+    --color-blue-gradient: linear-gradient(180deg, #70b3eb36 0%, #2e7bc16e 100%);
+}
+
+body {
+    background: var(--color-blue-gradient);
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    min-height: 100vh;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--color-gray-1);
+    font-family: 'Inter', sans-serif;
+}
+
+input,
+label,
+button {
+    transition-duration: 0.2s;
+}
+
+h1 {
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+}

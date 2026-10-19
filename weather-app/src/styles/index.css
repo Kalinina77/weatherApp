@@ -1,0 +1,49 @@
+.app{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.weather__title {
+    color: var(--color-black);
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.search__input{
+    background: var(--color-white);
+    border: none;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    height: 40px;
+    box-sizing: border-box;
+}
+
+.search__button{
+    background: var(--color-white);
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    width: 100%;
+    max-width: 250px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 10px;
+}
